@@ -17,7 +17,7 @@ def test_log_console(capsys):
 
 
 def test_log_file():
-    filename = "tralalero-tralala.txt"
+    filename = "mylog.txt"
 
     @log(filename=filename)
     def test_function(x, y):
